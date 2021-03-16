@@ -1,0 +1,53 @@
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+</head>
+
+<h1 id='title'>Feedback Form</h1>
+
+<p id="description">This survey has no theme whatsoever! Enjoy!</p>
+
+<form id="survey-form">
+  
+  <label id="name-label">Name</label> <input type="text" id="name" placeholder="First name" required></input><br><br>
+<label id="email-label">Email</label>
+<input type='email' id="email" placeholder="mrman@yahoo.com" required><br><br>
+<label id="number-label">Enter a number! (Between 5-25) </label> 
+<input type="number"
+min=5 max=25 placeholder=5                      id="number"></input><br><br>
+<label id="dropdownLabel">Select your favorite Mazda car</label>
+<select id="dropdown">
+  <option value="Miata">Miata</option>
+  <option value="RX7">RX7</option>
+  <option value="Demio">Demio</option>
+  <option value="626">626</option>
+</select><br><br>
+<label id="sportSelect">Select your favorite sports</label><br>
+<input type="radio" id="radioButtonBB"
+       name="sportsRadio"
+       value="Basketball">
+<label for="radioButtonBB">Basketball</label><br>
+
+<input type="radio" id="radioButtonFB"
+       name="sportsRadio"value="Football">
+<label for="radioButtonFB">Football</label><br>
+
+<input type="radio" id="radioButtonSoc" 
+       name="sportsRadio"
+       value="Soccer">
+<label for="radioButtonSoc">Soccer</label><br><br>
+
+<label id="foods">Select foods you like</label><br>
+<input type='Checkbox' id='pizzabox' value='pizza'><label for="pizzabox">Pizza</label><br>
+
+<input type='Checkbox' id='burgerbox' value='burger'><label for="burgerbox">Burger</label><br>
+
+<input type='Checkbox' id='sushibox' value='sushi'><label for="sushibox">Sushi</label><br><br>
+
+
+<label for="commentBox">Feedback</label><br>
+<textarea id="commentBox" name="commentBox" rows="5" cols="30">
+  Please leave additional feedback here</textarea><br><br>
+
+<button type="submit" id="submit" value="Submit">Submit</button>
+</form>
