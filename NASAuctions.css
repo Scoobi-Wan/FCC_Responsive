@@ -1,0 +1,184 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+
+body{
+  background-image: url("https://planetarium.truman.edu/files/2017/10/Space-background.jpg")
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid white;
+  align-items: center;
+  background-color: black;
+  height: 50px;
+}
+
+#Home {
+  height: 500px;
+  font-size: 20px;
+  margin-top: 150px;
+  color: white;
+}
+
+#Home h1 {
+  font-size: 44px;
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+}
+
+#Home p {
+  padding-top: 50px;
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#Home #welcomeP {
+  margin-top: 100px;
+}
+
+#header {
+  background-color: black;
+  height: 140px;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+}
+
+h3 {
+  color: white;
+}
+#topBar {
+  display: flex;
+  height: 120px;
+  background-color: #0B3D91;
+}
+
+#topBar h3 {
+  margin: auto;
+  padding-right: 300px;
+  font-size: 30px;
+  
+}
+
+#header-img {
+  filter: drop-shadow(0 0 0.75rem #FC3D21);
+  height: 180px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+#landing {
+  margin: auto;
+  background-color: #0B3D91;
+  width: 1200px;
+  border-radius: 25px;
+}
+
+#About {
+  height: 200px;
+  margin-top: 100px;
+  color: white; 
+  text-align: center;
+}
+
+#About h2 {
+  font-size: 30px;
+}
+
+#About #aboutP {
+  padding-top: 50px;
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 20px;
+}
+
+#Video {
+  height: 200px;
+  margin-top: 100px;
+  color: white; 
+  text-align: center;
+  height: 400px;
+}
+
+#Video h2 {
+  font-size: 30px;
+}
+
+#video {
+  margin-top: 40px;
+}
+
+#video #videoP {
+  font-size: 20px;
+}
+
+#ForSale {
+  height: 400px;
+  margin-top: 150px;
+  color: white; 
+  text-align: center;
+}
+
+#ForSale h2 {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+#sale-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+
+li img {
+  height: 200px;
+  width: 250px;
+}
+
+
+#Contact {
+  height: 400px;
+  margin-top: 150px;
+  color: white; 
+  text-align: center;
+}
+
+#Contact h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+#email{
+  background-color: white;
+}
+
+#submit{
+  border: solid #FC3D21 1px;
+  border-radius: 25px;
+  width: 80px;
+  height: 20px;
+  color: gray;
+}
+
+@media only screen and (max-width: 500px) {
+  landing {
+    background-color: #FC3D21;
+  }
+}
