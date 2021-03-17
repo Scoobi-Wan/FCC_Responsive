@@ -1,0 +1,136 @@
+<nav id="navbar">
+  <header class="topic-header">
+    Basic <p id="JS">JavaScript</p> Data Types
+  </header>
+  <ul>
+    <li><a href="#Strings" class="nav-link">Strings</a></li>
+    <li><a href="#Numbers" class="nav-link">Numbers</a></li>
+    <li><a href="#Booleans" class="nav-link">Booleans</a></li>
+    <li><a href="#Arrays" class="nav-link">Arrays</a></li>
+    <li><a href="#Objects" class="nav-link">Objects</a></li>
+    <li><a href="#Null_&_Undefined" class="nav-link">Null & Undefined</a></li>
+  </ul>
+  
+</nav>
+
+<main id="main-doc">
+  <section class="main-section" id="Strings">
+    <header class="section-header">
+      Strings
+    </header>
+    <p class="description" id="Strings-desc">
+      A string refers to a sequence of characters, meaning words like "baboon" or "lasagna" or a name like "Martha Stewart" can be a string. <br><br> A string could also be an entire sentence, or a novel if you really wanted! <br><br> Even "DEHGKJDEHGKHJedkjehgdkjehgkegdkghdkhg" is a string! Radical! 
+    </p>
+    <code id="Strings-code">
+      var guestName = "Martha Stewart";<br>
+      var meal = "Spaghetti and Meatballs";<br><br>
+      console.log("Hello, " + guestName + "! Welcome to Paulie's Pasta Palace. Would you like to try our famous " + meal + "?");<br><br>
+      Output: Hello, Martha Stewart! Welcome to Paulie's Pasta Palace. Would you like to try our famous Spaghetti and Meatballs?<br><br>    
+    </code>  
+    <p class="code-caption">
+      As seen above, strings can be concatenated together using the '+' operator.
+    </p>
+  </section>
+  
+  <section class="main-section" id="Numbers">
+    <header class="section-header">
+      Numbers
+    </header>
+    
+    <p class="description" id="Numbers-desc">
+      JavaScript keeps things simple, there is no differentiation between floats, ints, doubles, longs. Just Numbers.
+    </p>
+    
+    <code id="Numbers-code">
+      var num1 = 5;<br>var num2 = 8.22;
+    </code>  
+    
+    
+    <p class="code-caption">
+      Just think of all the cool things you can do with numbers!
+    </p>
+    
+  </section>
+  
+  <section class="main-section" id="Booleans">
+    <header class="section-header">
+      Booleans
+    </header>
+    
+    <p class="description" id="Booleans-desc">
+      Just like any other language, booleans can only be <code>true</code> or <code>false</code>
+    </p>
+    
+    <code id="Booleans-code">
+      var ageRequirement = 21;<br>var age = 19;<br>var oldEnough = age >= ageRequirement;<br><br>Output: true
+    </code>  
+    
+    
+    <p class="code-caption">
+      Just think of all the cool things you can do with Booleans!
+    </p>
+  </section>
+  
+  <section class="main-section" id="Arrays">
+    <header class="section-header">
+      Arrays
+    </header>
+    
+    <p class="description" id="Arrays-desc">
+      Arrays hold sequences of data types, and can be indexed. They are declared with brackets, with the data types separated by commas.
+    </p>
+    
+    <code id="Arrays-code">
+      var myCats = ["Albert", "Carl", "Jax", "Taco"];<br>myCats.push("Stripes");<br>console.log(myCats[0]);<br>console.log(myCats[4])<br><br>Output: Albert<br>Stripes
+    </code>  
+    
+    
+    <p class="code-caption">
+      Arrays can also hold mixed data types!
+    </p>
+  </section>
+  
+  <section class="main-section" id="Objects">
+    <header class="section-header">
+      Objects
+    </header>
+    
+        <p class="description" id="Objects-desc">
+      Objects can be used to represent so many different things that it is impossible to cover here, but the basic gist is an Object represents something, which has:
+          <li>attributes</li>
+          <li>possibly methods</li>
+    </p>
+    
+    <code id="Objects-code">
+      var Carl = {name:"Carl", hairColor:"black", age:"2", weight:"9"}<br>console.log(Carl.name + " is " + Carl.age + " years old." );<br><br>Output: Carl is 2 years old.
+    </code>  
+    <p class="code-caption">
+      Objects are a very powerful data type!
+    </p>
+  </section>
+  
+  
+  <section class="main-section" id="Null_&_Undefined">
+    <header class="section-header">
+      Null & Undefined
+    </header>
+    
+        <p class="description" id="Null-desc">
+      Null and Undefined are similar, and yet different. 
+          <li>Undefined refers to a variable without a value.</li>
+          <li>Null refers to a variable that does not exist. It can be used to "clear" a variable.</li>
+          <li>It should be noted that Null and Undefined are equal in value (null == undefined evaluates to true)<br> but different in type (null === undefined evaluates to false)</li>
+    </p>
+    
+    <code id="Null-code">
+      var myDogs;<br>console.log(myDogs);<br><br>Output: Undefined<br><br>var myCats = ["Albert", "Carl", "Jax", "Taco"];<br>myCats = null;
+    </code>  
+    
+    
+    <p class="code-caption">
+      Null and undefined are tricky!
+    </p>
+    
+  </section>
+  <footer>Designed and coded by Paul Rich for FCC Responsive Web Course</footer>
+</main>
