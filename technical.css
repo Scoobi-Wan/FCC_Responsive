@@ -1,0 +1,101 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: #00DD70;
+}
+
+#navbar ul {
+  list-style: none;
+}
+
+#navbar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  z-index: 1; /*Keep on top*/
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 40px;
+}
+
+#main-doc {
+  margin-left: 200px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#navbar header {
+  font-size: 36px;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+header {
+  font-size: 36px;
+  margin-bottom: 10px;
+  margin-top: 100px;
+}
+
+#Strings {
+  margin-top: 50px;
+}
+
+body {
+  font-size: 18px;
+  background-color: #09132A;
+  color: #CACED7;
+}
+
+.topic-header {
+  color: #CACED7;
+}
+
+#JS {
+  color: #F6E509;
+}
+
+.section-header {
+  color: #F6E509;
+}
+
+code {
+  color :#DD006D;
+  background-color: #070F20;
+}
+
+.description {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.code-caption {
+  margin-top: 5px;
+}
+
+ul {
+  height: 200px;
+  padding-left: 30px;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #00DD70;
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar header {
+    color: #00DD70;
+  }
+}
