@@ -1,0 +1,33 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+ }
+
+
+img {
+  height: 400px;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+body {
+  background-color: #3e1ea8;
+}
+
+#welcome-section {
+  height: 1000px;
+  text-align: center;
+  margin-top: 200px;
+  color: white;
+}
+
+#intro {
+  font-size: 20px;
+}
