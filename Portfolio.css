@@ -17,6 +17,7 @@ h1 {
   font-size: 90px;
   font-family: 'Catamaran', sans-serif;
   color: #f1faee;
+  padding-top: 200px;
 }
 
 body {
@@ -26,9 +27,10 @@ body {
 #welcome-section {
   height: 100vh;
   text-align: center;
-  padding-top: 200px;
+  padding-top: 0px;
   color: white;
   background-color: #2b2d42;
+  display: block;
 }
 
 #intro {
@@ -37,7 +39,7 @@ body {
   color: #f1faee;
 }
 
-.social-link img {
+.profile-link img {
   height: 30px;
   padding-left: 30px;
   padding-right: 30px;
@@ -51,6 +53,10 @@ body {
 nav {
   display: flex;
   background-color: #1e1f2e;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
 }
 
 #Projects_About_Contact {
@@ -58,7 +64,7 @@ nav {
   display: flex;
   justify-content: space-evenly;
   font-family: 'Roboto', sans-serif;
-  margin-left: 10%;
+  margin-left: 100px;
 }
 
 #Projects_About_Contact .nav-link {
@@ -104,7 +110,7 @@ nav {
   background-color: #8d99ae;
 }
 
-#projects header {
+header {
   font-size: 60px;
   font-family: 'Catamaran', sans-serif;
   padding-left: 100px;
@@ -124,4 +130,39 @@ nav {
   padding-right: 100px;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+#about {
+  height: 1000px;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#about-p {
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+  line-height: 200%;
+}
+
+#about-header {
+  color: #2b2d42;
+}
+
+#contact{
+  height: 1000px;
+  background-color: #ef233c;
+}
+
+#contact-header{
+  color: #edf2f4;
+}
+
+@media only screen and (max-width: 1000px) {
+  #rightNav {
+    display: none;
+  }
+  #Projects_About_Contact{
+    margin-left: 200px;
+  }
 }
