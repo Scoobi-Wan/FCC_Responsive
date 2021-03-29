@@ -99,3 +99,10 @@ footer {
     color: #00DD70;
   }
 }
+
+
+@media only screen and (max-width: 400px) {
+  #navbar header {
+    color: #ffffff;
+  }
+}
